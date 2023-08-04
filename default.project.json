@@ -1,0 +1,38 @@
+{
+	"name": "Horizon-City",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ReplicatedStorage"
+		},
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ServerScriptService"
+		},
+		"ServerStorage": {
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ServerStorage"
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$ignoreUnknownInstances": true,
+				"$path": "src/StarterPlayer/StarterPlayerScripts"
+			},
+			"StarterCharacterScripts": {
+				"$ignoreUnknownInstances": true,
+				"$path": "src/StarterPlayer/StarterCharacterScripts"
+			}
+		},
+		"Workspace": {
+			"$properties": {
+				"FilteringEnabled": true
+			}
+		},
+		"SoundService": {
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
